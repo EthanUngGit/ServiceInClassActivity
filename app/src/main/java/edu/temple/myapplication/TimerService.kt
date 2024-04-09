@@ -21,7 +21,7 @@ class TimerService : Service() {
     inner class TimerBinder : Binder() {
 
         fun start(startValue: Int) {
-            
+            start(startValue, null)
         }
 
         // Check if Timer is already running
